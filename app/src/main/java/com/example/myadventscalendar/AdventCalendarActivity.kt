@@ -5,7 +5,6 @@ import android.widget.AdapterView
 import android.widget.GridView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import java.util.*
 import kotlin.collections.ArrayList
 
 class AdventCalendarActivity : AppCompatActivity() {
@@ -28,27 +27,26 @@ class AdventCalendarActivity : AppCompatActivity() {
         dayList = dayList + GridViewModal("2", R.drawable.coffee)
         dayList = dayList + GridViewModal("3", R.drawable.cookies)
         dayList = dayList + GridViewModal("4", R.drawable.sweets)
-//        courseList = courseList + GridViewModal("Javascript", R.drawable.js)
-//        courseList = courseList + GridViewModal("C++", R.drawable.c)
-//        courseList = courseList + GridViewModal("Java", R.drawable.java)
-//        courseList = courseList + GridViewModal("Android", R.drawable.android)
-//        courseList = courseList + GridViewModal("Python", R.drawable.python)
-//        courseList = courseList + GridViewModal("Javascript", R.drawable.js)
-//        courseList = courseList + GridViewModal("C++", R.drawable.c)
-//        courseList = courseList + GridViewModal("Java", R.drawable.java)
-//        courseList = courseList + GridViewModal("Android", R.drawable.android)
-//        courseList = courseList + GridViewModal("Python", R.drawable.python)
-//        courseList = courseList + GridViewModal("Javascript", R.drawable.js)
-//        courseList = courseList + GridViewModal("C++", R.drawable.c)
-//        courseList = courseList + GridViewModal("Java", R.drawable.java)
-//        courseList = courseList + GridViewModal("Android", R.drawable.android)
-//        courseList = courseList + GridViewModal("Python", R.drawable.python)
-//        courseList = courseList + GridViewModal("Javascript", R.drawable.js)
-//        courseList = courseList + GridViewModal("Java", R.drawable.java)
-//        courseList = courseList + GridViewModal("Android", R.drawable.android)
-//        courseList = courseList + GridViewModal("Python", R.drawable.python)
-//        courseList = courseList + GridViewModal("Javascript", R.drawable.js)
-
+        dayList = dayList + GridViewModal("5", R.drawable.cat)
+        dayList = dayList + GridViewModal("6", R.drawable.coffee)
+        dayList = dayList + GridViewModal("7", R.drawable.cookies)
+        dayList = dayList + GridViewModal("8", R.drawable.sweets)
+        dayList = dayList + GridViewModal("9", R.drawable.cat)
+        dayList = dayList + GridViewModal("10", R.drawable.coffee)
+        dayList = dayList + GridViewModal("11", R.drawable.cookies)
+        dayList = dayList + GridViewModal("12", R.drawable.sweets)
+        dayList = dayList + GridViewModal("13", R.drawable.cat)
+        dayList = dayList + GridViewModal("14", R.drawable.coffee)
+        dayList = dayList + GridViewModal("15", R.drawable.cookies)
+        dayList = dayList + GridViewModal("16", R.drawable.sweets)
+        dayList = dayList + GridViewModal("17", R.drawable.cat)
+        dayList = dayList + GridViewModal("18", R.drawable.coffee)
+        dayList = dayList + GridViewModal("19", R.drawable.cookies)
+        dayList = dayList + GridViewModal("20", R.drawable.sweets)
+        dayList = dayList + GridViewModal("21", R.drawable.cat)
+        dayList = dayList + GridViewModal("22", R.drawable.coffee)
+        dayList = dayList + GridViewModal("23", R.drawable.cookies)
+        dayList = dayList + GridViewModal("24", R.drawable.sweets)
         // on below line we are initializing our course adapter
         // and passing course list and context.
         val courseAdapter = GridRVAdapter(dayList = dayList, this@AdventCalendarActivity)

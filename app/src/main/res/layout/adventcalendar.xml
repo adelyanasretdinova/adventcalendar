@@ -1,36 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/pink"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:padding="10dp"
     tools:context=".AdventCalendarActivity">
 
-    <TextView
-        android:id="@+id/header"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Advents Calendar"
-        android:textSize="25dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-    <ImageView
-        android:id="@+id/bells"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/bells"/>
+    <!--on below line we are creating a grid view-->
     <GridView
         android:id="@+id/idGRV"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:horizontalSpacing="6dp"
-        android:numColumns="3"
-        android:verticalSpacing="6dp"
-        app:layout_constraintStart_toStartOf="@id/header"
-        app:layout_constraintTop_toBottomOf="@id/header"/>
+        android:numColumns="4"
+        android:verticalSpacing="6dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
