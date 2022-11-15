@@ -7,12 +7,21 @@
     tools:context=".AdventCalendarActivity">
 
     <!--on below line we are creating a grid view-->
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:textSize="20dp"
+        android:text="@string/app_name" />
+
     <GridView
         android:id="@+id/idGRV"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:horizontalSpacing="6dp"
-        android:numColumns="4"
-        android:verticalSpacing="6dp" />
+        android:layout_below="@id/appname"
+        android:numColumns="4" />
 
 </RelativeLayout>
