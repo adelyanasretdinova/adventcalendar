@@ -22,4 +22,5 @@
     <style name="Theme.MyAdventscalendar.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.MyAdventscalendar.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>
